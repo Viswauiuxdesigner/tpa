@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gallery — Tirupur Photography Association</title>
+<meta name="description" content="Photographs from Tirupur Photography Association events: Annual Day, workshops, expos, contests and member showcases.">
+<meta name="theme-color" content="#14181C">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tirupur Photography Association">
+<meta property="og:title" content="Gallery — Tirupur Photography Association">
+<meta property="og:description" content="Photographs from Tirupur Photography Association events: Annual Day, workshops, expos, contests and member showcases.">
+<meta property="og:locale" content="en_IN"><meta property="og:locale:alternate" content="ta_IN">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%2314181C'/%3E%3Ccircle cx='20' cy='20' r='9' fill='none' stroke='%23EEEAE2' stroke-width='3'/%3E%3Ccircle cx='20' cy='20' r='3.5' fill='%23C93A18'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Serif+Tamil:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="gallery" data-title-key="t_gallery" data-title-en="Gallery">
+<div id="site-header"></div>
+<header class="pghead"><div class="wrap"><p class="eyebrow" data-i18n="g_eyebrow2">Photography gallery</p><h1 data-i18n="gl_h1" style="font-size:clamp(40px,6.4vw,100px)">A community, <em>photographed.</em></h1><p class="lead rv" data-i18n="gl_lead">Browse event photographs by category. Select any image to view it full screen.</p></div></header><main id="main"><section class="sec" style="padding-top:48px"><div class="wrap">
+<div class="filters" id="filters" role="group" aria-label="Gallery categories"></div>
+<p class="small mid" id="count" aria-live="polite" style="margin:18px 0 28px"></p>
+<div class="masonry" id="grid"></div>
+<div class="empty" id="empty" hidden><h3 data-i18n="gl_empty">No photographs in this category yet.</h3><p class="mid" data-i18n="gl_empty2">Please choose another category.</p></div>
+<p class="cap" style="margin-top:20px" data-i18n="g_note">Curated works by member photographers across weddings, documentary, fine art, and commercial assignments.</p>
+</div></section></main>
+<dialog class="lb" id="lb" aria-label="Image viewer"><div class="lb-in">
+<div class="lb-stage"><button class="ic x" type="button" id="lb-x" aria-label="Close">✕</button><button class="ic pv" type="button" id="lb-pv" aria-label="Previous image">←</button><button class="ic nx" type="button" id="lb-nx" aria-label="Next image">→</button><div id="lb-img" style="width:100%;display:flex;justify-content:center"></div></div>
+<aside class="lb-side"><p class="eyebrow" id="lb-cat"></p><h2 id="lb-title"></h2><p id="lb-cap" class="mid"></p><dl><dt data-i18n="gl_event">Event</dt><dd id="lb-ev"></dd><dt data-i18n="gl_credit">Photographer</dt><dd id="lb-cr"></dd><dt data-i18n="gl_pos">Image</dt><dd id="lb-pos"></dd></dl>
+<p style="margin-top:28px"><button class="btn" type="button" id="lb-copy" data-i18n="gl_link">Copy link to this image</button></p></aside></div></dialog>
+<div id="site-footer"></div>
+<noscript><p style="padding:24px;text-align:center">This website needs JavaScript for navigation and language switching.</p></noscript>
+<script src="js/config.js"></script><script src="js/data.js"></script><script src="js/app.js"></script><script src="js/ta.js"></script>
+<script src="js/gallery.js"></script>
+</body></html>
